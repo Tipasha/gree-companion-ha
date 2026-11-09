@@ -1,0 +1,6 @@
+{
+  "name": "Gree Direct Discovery",
+  "render_readme": true,
+  "homeassistant": "2026.9.3",
+  "content_in_root": true
+}

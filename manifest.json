@@ -1,0 +1,11 @@
+{
+  "domain": "gree_direct",
+  "name": "Gree Direct Discovery",
+  "codeowners": ["@Tipasha"],
+  "config_flow": true,
+  "dependencies": ["gree"],
+  "documentation": "https://github.com/Tipasha/gree-companion-ha",
+  "issue_tracker": "https://github.com/Tipasha/gree-companion-ha/issues",
+  "iot_class": "local_polling",
+  "version": "1.0.0"
+}

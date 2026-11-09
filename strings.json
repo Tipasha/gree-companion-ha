@@ -1,0 +1,21 @@
+{
+  "title": "Gree Direct Discovery",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Gree direct discovery",
+        "description": "Keep the built-in Gree integration enabled. Enter the AC IPv4 addresses separated by commas. Reserve these addresses in your router's DHCP settings.",
+        "data": {"hosts": "AC IPv4 addresses"}
+      },
+      "reconfigure": {
+        "title": "Update AC addresses",
+        "data": {"hosts": "AC IPv4 addresses"}
+      }
+    },
+    "error": {"invalid_hosts": "Enter valid unicast IPv4 addresses, separated by commas."},
+    "abort": {
+      "already_configured": "Gree direct discovery is already configured.",
+      "reconfigure_successful": "AC addresses updated."
+    }
+  }
+}
